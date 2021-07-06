@@ -1,1 +1,87 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Techie Planet | Website | Youtube Channel</title>
+<meta name="theme-color" content="#00cca1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="Land your spaceship on this planet of Programming, tech, and Web Development!" />
+<meta name="keywords" content="techie planet,techie planet 467,467,sharmarahul webdev,programming,web development">
+<meta name="robots" content="follow">
+<meta name="og:image" content="includes/thumbnail.png">
+<meta name="og:title" content="Techie Planet 467">
+<meta name="og:url" content="https://techieplanet467.github.io">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<link rel="icon" href="includes/logo.png" />
+<link rel="shortcut icon" href="includes/logo.png" />
+<style type="text/css">
+*{margin:0;padding:0;box-sizing:border-box;}
+@font-face {
+  font-family:Oswald;
+  src:url(includes/font.ttf);
+}
+header {width:100vw;box-shadow:5px 0 15px rgba(0,0,0,.6);}
+header .banner{width:100%;position:fixed;z-index:-2;}
+/*
+height:calc(100vw/(2000/550));background-image:url('includes/banner.png');background-size:cover;background-attachment:fixed;}
+*/
+header .banner img, header .hidden img {width:100%;}
+header .channel {z-index:2;margin-top:-5px;background:#e3e3e3;width:100vw;display:flex;justify-content:space-between;align-items:center;}
+header .channel .logo {width:20%;max-width:140px;margin:10px 0;border-radius:50%;}
+header .channel .brand {font-family:Oswald, sans-serif;text-transform:uppercase;font-size:25px;}
+header .channel .subscribe {display:hidden;text-decoration:none;background:red;color:white;font-family:Oswald, sans-serif;border:4px outset #d00;font-size:17px;padding:1px 4px;}
+header .channel .subscribe:active {border-style:inset;}
+.hidden {visibility:hidden;}
+main {z-index:1;background:#fff;}
+.list {width:100%;min-height:150px;display:flex;justify-content:center;align-items:center;flex-direction:column;box-shadow:0 0 8px rgba(0,0,0,.6);margin-top:15px;}
+.list a {color:black;text-decoration:none;font-family:Oswald, sans-serif;}
+
+@media screen and (min-width:980px){
+	.list {width:49.5%;display:inline-flex;}
+}
+</style>
+<link rel="stylesheet" href="includes/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="banner"><img src="includes/banner.png" alt="Techie Plaent banner"></div>
+		<div class="hidden"><img src="includes/banner.png" alt="Techie Plaent banner"></div>
+		<div class="channel">
+			<img class="logo" src="includes/logo.png" alt="Techie Planet">
+			<span class="brand">Techie Planet</span>
+			<a class="subscribe" href="https://youtube.com/channel/UCRtQdM7tHwuYqjKYUMIKqSA?sub_confirmation=1" >SUBSCRIBE</a>
+			<script src="https://apis.google.com/js/platform.js"></script>
+			<div class="g-ytsubscribe" data-channelid="UCRtQdM7tHwuYqjKYUMIKqSA" data-layout="default" data-count="default"></div>
+			
+		</div>
+	</header>
+	<main><br>
+		<div class="list">
+			<span class="fab fa-youtube" style="font-size:100px;color:red;"></span>
+			<a href="https://youtube.com/techieplanet">WATCH VIDEOS</a>
+		</div>
+		<div class="list">
+			<span class="fa fa-list-alt" style="font-size:100px;color:red;"></span>
+			<a href="playlist/">WATCH VIDEOS BY CATEGORIES</a>
+		</div>
+		<div class="list">
+			<span class="fa fa-globe" style="font-size:100px;color:#00bb91;"></span>
+			<a href="blog/">BROWSE BLOGS</a>
+		</div>
+		<div class="list">
+			<span class="fab fa-facebook" style="font-size:100px;color:blue;"></span>
+			<a href="https://facebook.com/techieplanet">FOLLOW US ON FACEBOOK</a>
+		</div>
+		<div class="list">
+			<span class="fab fa-github" style="font-size:100px;color:black;"></span>
+			<a href="https://github.com/techieplanet">SOURCE CODE</a>
+		</div>
+		<div class="list">
+			<span class="fa fa-user-alt" style="font-size:100px;color:#00bb91;"></span>
+			<a>ABOUT</a>
+		</div>
+		
+	</main>
+</body>
+</html>
